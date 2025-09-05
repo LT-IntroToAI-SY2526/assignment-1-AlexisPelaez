@@ -20,7 +20,8 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[Paste the prompt you used to generate your problem set here]
+[I'm learning Python basics in a high school programming class. I have some experience with Java in APCSA.
+ Can you create 5-7 practice problems that cover: variables and basic data types, conditionals(if/elif/else), loops (for and while), functions, and basic list operations.]
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -41,6 +42,51 @@ True if the number is even, False if it's odd.
 Example inputs/outputs:
 - is_even(4) should return True
 - is_even(7) should return False
+
+Problem 1: Ask the user to enter their name and age. Print a message that says how old they’ll be in 5 years.
+Example inputs/outputs:
+
+Enter your name: Alex
+Enter your age: 16
+Hi Alex! In 5 years, you’ll be 21 years old.
+
+Problem 2: Write a program that prints the numbers from 1 to 50. But: 
+- For multiples of 3, print "Fizz" instead of the number.
+- For multiples of 5, print "Buzz".
+- For numbers that are multiples of both 3 and 5, print "FizzBuzz".
+
+Problem 3: Write a function called is_even(num) that:
+- Takes a number as input
+- Returns True if it’s even, and False if it’s odd
+Then test your function on numbers from 1 to 10 using a for loop.
+
+Problem 4: Ask the user for a number, then count down to 0 using a while loop. Print each number as it counts down.
+Example inputs/outputs:
+
+Enter a number to start countdown: 5
+5
+4
+3
+2
+1
+0
+Blast off!
+
+Problem 5: Write a function sum_list(nums) that takes a list of numbers and returns the sum.
+Try it on: [3, 5, 2, 8, 1]
+
+Problem 6: Write a function grade_converter(score) that takes a numeric test score (0–100) and returns the letter grade:
+A: 90–100
+B: 80–89
+C: 70–79
+D: 60–69
+F: below 60
+
+Problem 7: Write a function reverse_list(lst) that takes a list and returns a new list with the elements in reverse order.
+Try it on: ["apple", "banana", "cherry"]
+Expected Output: ["cherry", "banana", "apple"]
+
+
 """
 
 
