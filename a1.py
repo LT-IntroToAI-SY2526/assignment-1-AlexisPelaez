@@ -1,5 +1,5 @@
 # Assignment 1: AI-Generated Python Problems
-# Name: [Your Name Here]
+# Name: [Alexis Pelaez]
 
 """
 AI-Generated Problem Set
@@ -23,25 +23,6 @@ MY ORIGINAL AI PROMPT:
 [I'm learning Python basics in a high school programming class. I have some experience with Java in APCSA.
  Can you create 5-7 practice problems that cover: variables and basic data types, conditionals(if/elif/else), loops (for and while), functions, and basic list operations.]
 
-Example: "I'm learning Python basics in a high school programming class. 
-I have some experience with Java. Can you create 5-7 practice problems that cover..."
-"""
-
-# =============================================================================
-# PART 2: AI-GENERATED PROBLEMS & SOLUTIONS
-# =============================================================================
-
-"""
-PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
-
-Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
-True if the number is even, False if it's odd.
-
-Example inputs/outputs:
-- is_even(4) should return True
-- is_even(7) should return False
 
 Problem 1: Ask the user to enter their name and age. Print a message that says how old they’ll be in 5 years.
 Example inputs/outputs:
@@ -49,6 +30,8 @@ Example inputs/outputs:
 Enter your name: Alex
 Enter your age: 16
 Hi Alex! In 5 years, you’ll be 21 years old.
+
+
 
 Problem 2: Write a program that prints the numbers from 1 to 50. But: 
 - For multiples of 3, print "Fizz" instead of the number.
@@ -86,10 +69,37 @@ Problem 7: Write a function reverse_list(lst) that takes a list and returns a ne
 Try it on: ["apple", "banana", "cherry"]
 Expected Output: ["cherry", "banana", "apple"]
 
-
 """
 
+# =============================================================================
+# PART 2: AI-GENERATED PROBLEMS & SOLUTIONS
+# =============================================================================
 
+
+def ageIn5 ():
+    """Problem 1"""
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: ")) + 5
+    print("Hi", name + "! In 5 years, you'll be", age)
+
+def oTfifty():
+    """Problem 2"""
+    for i in range(0,51):
+        if i % 3 == 0 and i % 5 == 0:
+            print("Fizzbuzz")
+        elif i % 5 == 0:
+            print("Buzz")
+        elif i % 3 == 0:
+            print("Fizz")
+        else:
+            print(i)
+
+def is_evenNum(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+        
 
 
 
@@ -116,13 +126,14 @@ print(f"is_even(7): {is_even(7)}")  # Should print False
 """
 
 print("Testing Problem 1:")
-# Add your tests here
+ageIn5()
 
 print("\nTesting Problem 2:")
-# Add your tests here
+oTfifty()
 
 print("\nTesting Problem 3:")
-# Add your tests here
+for i in range(0,11):
+    print(is_evenNum(i))
 
 print("\nTesting Problem 4:")
 # Add your tests here

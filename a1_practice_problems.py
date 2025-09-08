@@ -44,8 +44,13 @@ def factorial(n: int) -> int:
     Returns:
         factorial of the passed in number
     """
-    raise NotImplementedError("factorial")
 
+    """ raise NotImplementedError("factorial")"""
+    result = 1
+    for i in range(1,n+1):
+        result = result * i
+    print(result)
+    return result
 
 T = TypeVar("T")
 
