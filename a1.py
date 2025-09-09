@@ -101,7 +101,11 @@ def is_evenNum(n):
         return False
 
 def countdown(n):
-    while i in range(n,0,-1):
+    i = n
+    while i >= 0:
+        print(i)
+        i -= 1
+    print("Blast off!")
         
         
 
@@ -140,7 +144,7 @@ for i in range(0,11):
     print(is_evenNum(i))
 
 print("\nTesting Problem 4:")
-# Add your tests here
+countdown(int(input("Enter a number to start countdown: ")))
 
 print("\nTesting Problem 5:")
 # Add your tests here
