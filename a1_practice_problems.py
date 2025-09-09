@@ -75,7 +75,7 @@ def every_other(lst: List[T]) -> List[T]:
 
     #Python way
     return lst[::2]
-    
+
 def sum_list(lst: List[int]) -> int:
     """Takes a list of numbers, and returns the sum of the numbers in that list. Cannot
     use the built in function `sum`.
