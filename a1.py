@@ -55,8 +55,7 @@ Enter a number to start countdown: 5
 0
 Blast off!
 
-Problem 5: Write a function sum_list(nums) that takes a list of numbers and returns the sum.
-Try it on: [3, 5, 2, 8, 1]
+# Deleted original question 5 because it is already done told in al_practice_problems.py
 
 Problem 6: Write a function grade_converter(score) that takes a numeric test score (0–100) and returns the letter grade:
 A: 90–100
@@ -106,16 +105,22 @@ def countdown(n):
         print(i)
         i -= 1
     print("Blast off!")
-        
-        
 
+def grade_converter(score):
+    if score >= 90 :
+        return "A"
+    elif score < 90 and score >= 80:
+        return "B"
+    elif score < 80 and score >= 70:
+        return "C"
+    elif score < 70 and score >= 60:
+        return "D"
+    else:
+        return "F"
 
-
-
-
-
-
-
+def reverse_list(lst):
+    nList = lst[::-1]
+    return nList
 
 # =============================================================================
 # PART 3: TESTING YOUR SOLUTIONS
@@ -127,10 +132,6 @@ Test all your solutions with different inputs
 
 Add asserts if you feel comfortable
 
-Example:
-print("Testing Problem 1:")
-print(f"is_even(4): {is_even(4)}")  # Should print True
-print(f"is_even(7): {is_even(7)}")  # Should print False
 """
 
 print("Testing Problem 1:")
@@ -146,7 +147,12 @@ for i in range(0,11):
 print("\nTesting Problem 4:")
 countdown(int(input("Enter a number to start countdown: ")))
 
-print("\nTesting Problem 5:")
-# Add your tests here
+#Deleted original question 5 because it is already done told in al_practice_problems.py
 
+print("\nTesting Problem 6:")
+score = grade_converter(float(input("What did you score on your test? ")))
+print(score)
 
+print("\nTesting Problem 7:")
+eList = [5,4,3,2,1]
+print(reverse_list(eList))
