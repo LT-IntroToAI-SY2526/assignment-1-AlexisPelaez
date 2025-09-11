@@ -81,7 +81,7 @@ def ageIn5 ():
     age = int(input("Enter your age: ")) + 5
     print("Hi", name + "! In 5 years, you'll be", age)
 
-def oTfifty():
+def zeroToFifty():
     """Problem 2"""
     for i in range(0,51):
         if i % 3 == 0 and i % 5 == 0:
@@ -138,7 +138,7 @@ print("Testing Problem 1:")
 ageIn5()
 
 print("\nTesting Problem 2:")
-oTfifty()
+zeroToFifty()
 
 print("\nTesting Problem 3:")
 for i in range(0,11):
