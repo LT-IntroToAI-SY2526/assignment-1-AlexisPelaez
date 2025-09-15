@@ -124,7 +124,7 @@ def reverse_list(lst):
 
 def find_largest(num):
     largest = float('-inf')
-    for i in range(0, len(num)+1):
+    for i in num:
         if i > largest:
             largest = i
     return largest
@@ -165,4 +165,6 @@ eList = [5,4,3,2,1]
 print(reverse_list(eList))
 
 print("\nTesting Problem 8:")
-print(find_largest(input("Enter 5 values ")))
+num = map(int, input("Enter 5 values separated by commas ").split(','))
+num = list(num)
+print(find_largest(num))
