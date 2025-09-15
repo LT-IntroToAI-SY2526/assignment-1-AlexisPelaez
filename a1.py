@@ -122,6 +122,13 @@ def reverse_list(lst):
     nList = lst[::-1]
     return nList
 
+def find_largest(num):
+    largest = float('-inf')
+    for i in range(0, len(num)+1):
+        if i > largest:
+            largest = i
+    return largest
+
 # =============================================================================
 # PART 3: TESTING YOUR SOLUTIONS
 # =============================================================================
@@ -147,7 +154,7 @@ for i in range(0,11):
 print("\nTesting Problem 4:")
 countdown(int(input("Enter a number to start countdown: ")))
 
-#Deleted original question 5 because it is already done told in al_practice_problems.py
+#Deleted original question 5 because it is already done told in al_practice_problems.py ( sum_list() )
 
 print("\nTesting Problem 6:")
 score = grade_converter(float(input("What did you score on your test? ")))
@@ -156,3 +163,6 @@ print(score)
 print("\nTesting Problem 7:")
 eList = [5,4,3,2,1]
 print(reverse_list(eList))
+
+print("\nTesting Problem 8:")
+print(find_largest(input("Enter 5 values ")))
