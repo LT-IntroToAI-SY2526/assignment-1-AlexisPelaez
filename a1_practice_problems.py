@@ -151,7 +151,7 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
         if current == "duck1":
             current = "duck2"
             position += 1
-            """My Unna..."""
+            
         elif current == "duck2":
             current = "goose"
             position += 1

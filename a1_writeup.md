@@ -17,7 +17,7 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 After completing your problems, reflect on:
 
 1. **What was your initial experience with Python?** How did it compare to other programming languages you've used?
-
+My initial experience with Python was knowing absolutely nothing. I have never worked with Python in a previous project or class so I looked for things that seemed familiar to Java as I took APCSA last year. Python seems to have a very easy to understand syntax and simple logic. Many methods such as sum() and max() are built in which seems to save time. It also doesn't require you to define the variable type. Python seems to prioritize efficinecy.
 2. **How did you use AI effectively?** Give specific examples of good prompts you used and what you learned from the responses.
 
 3. **What concepts were most challenging?** How did AI help you understand them?
